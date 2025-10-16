@@ -1,7 +1,25 @@
-:root{
-
-}
-
 body {
    font-family: "Roboto", sans-serif;
+}
+
+.hero-section {
+  background-image: url('/assets/image/background_1.jpg');
+   background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  min-height: 100vh; /* чтобы фон покрывал весь экран */
+  color: white;
+  position: relative;
+}
+.hero-section::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: rgba(0, 0, 30, 0.6); /* затемнение картинки */
+  z-index: 0;
+}
+
+.hero-section > * {
+  position: relative;
+  z-index: 1;
 }
