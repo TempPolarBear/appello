@@ -7,7 +7,7 @@ body {
    background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
-  min-height: 100vh; /* чтобы фон покрывал весь экран */
+  min-height: 100vh; 
   color: white;
   position: relative;
 }
@@ -15,7 +15,7 @@ body {
   content: "";
   position: absolute;
   inset: 0;
-  background: rgba(0, 0, 30, 0.6); /* затемнение картинки */
+  background: rgba(0, 0, 30, 0.6); 
   z-index: 0;
 }
 
