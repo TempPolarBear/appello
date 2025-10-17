@@ -1,10 +1,14 @@
+:root{
+   --secondary-text-color:#737373;
+}
+
 body {
    font-family: "Roboto", sans-serif;
 }
 
 .hero-section {
   background-image: url('/assets/image/background_1.jpg');
-   background-size: cover;
+  background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
   min-height: 100vh; 
@@ -31,3 +35,19 @@ body {
   }
 }
 
+.partner-section {
+  background-color: #fff;
+  min-height: 675px;
+}
+
+.partner-section .border-end {
+  border-color: rgba(0, 0, 0, 0.1) !important; 
+}
+
+.secondary-text {
+  color: var(--secondary-text-color);
+}
+
+.bg {
+  background: #0E0E33;
+}
