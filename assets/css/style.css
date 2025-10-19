@@ -35,14 +35,25 @@ body {
   }
 }
 
+.partners-section {
+  background-color: #fafafa;
+}
+
+.partners-section img {
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.partners-section img:hover {
+  transform: scale(1.05);
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+}
+
+
 .partner-section {
   background-color: #fff;
   min-height: 675px;
 }
 
-.partner-section .border-end {
-  border-color: rgba(0, 0, 0, 0.1) !important; 
-}
 
 .secondary-text {
   color: var(--secondary-text-color);
@@ -50,4 +61,8 @@ body {
 
 .bg {
   background: #0E0E33;
+}
+
+.bg_secondary {
+  background-color: #FAFAFA;
 }
