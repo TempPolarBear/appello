@@ -35,6 +35,26 @@ body {
   }
 }
 
+.contact-bg {
+  background-image: url('/assets/image/background_2.jpg');
+  background-size: cover;         
+  background-position: center;    
+  background-repeat: no-repeat;   
+  background-attachment: scroll;  
+  min-height: 100vh;              
+  display: flex;                
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+}
+.card {
+  border: none;
+  padding: 40px;
+  max-width: 500px;
+  margin: auto;
+}
+
+
 .partners-section {
   background-color: #fafafa;
 }
@@ -63,6 +83,6 @@ body {
   background: #0E0E33;
 }
 
-.bg_secondary {
-  background-color: #FAFAFA;
+.bg-secondary {
+  background-color: #FAFAFA !important; 
 }
