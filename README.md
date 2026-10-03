@@ -1,12 +1,12 @@
 # Appello Landing Page
 
-Адаптивная одностраничная вёрстка сайта компании по разработке программного обеспечения.
+A responsive one-page website for a software development company.
 
 ## Features
 
-- Навигация по секциям страницы
-- Адаптивное меню Bootstrap
-- Секции услуг, портфолио, партнёрств, ресурсов и FAQ
+- Navigation between page sections
+- Responsive Bootstrap navigation menu
+- Services, portfolio, partnerships, resources, and FAQ sections
 
 ## Technologies
 
@@ -18,4 +18,4 @@
 
 ## Getting Started
 
-Откройте `index.html` в браузере. Сборка и переменные окружения не требуются.
+Open `index.html` in a browser. No build step or environment variables are required.
